@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  margin-top: 32px;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 24px 0 32px 0;
+  background: yellowgreen;
+  padding: 16px 0;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+  background: #95d5b2;
+  color: #fff;
+}
+.medical-plus {
+  color: #d90429;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-right: 10px;
+  border: 2px solid #d90429;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  vertical-align: middle;
+  box-shadow: 0 2px 8px rgba(217,4,41,0.12);
+}
+.image-container{
+    height:400px;
+    display:flex;
+    width:400px;
+}
